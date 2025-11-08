@@ -1,0 +1,24 @@
+{
+  "resourceName": "Example FiveM Resource",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "settings": {
+    "enableNotifications": true,
+    "debugMode": false,
+    "maxPlayers": 32
+  },
+  "commands": {
+    "notify": {
+      "enabled": true,
+      "description": "Send a notification"
+    },
+    "serverinfo": {
+      "enabled": true,
+      "description": "Display server information"
+    }
+  },
+  "permissions": {
+    "adminOnly": false,
+    "allowedGroups": ["user", "moderator", "admin"]
+  }
+}
